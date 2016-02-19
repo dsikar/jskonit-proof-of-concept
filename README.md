@@ -23,7 +23,7 @@ What's in here:
 Jsoknit is a JSON based framework used to describe embedded functions such that they may be called from other devices. If an embedded device with a jsoknit interface receives the *libdef* keyword, it then returns the library definition of all functions that may be called. The remote device can then make function calls as defined in the library. In this proof of concept, when an external device sends the libdef keyword to the embedded device, it receives the following reply:
 
 ``` 
-"void LedOn(); void LedOff; boolean LedIsOn(); void PWMLed(int intensity);"
+"void LedOn(); void LedOff(); boolean LedIsOn(); void PWMLed(int intensity);"
 ```
 
 If the external device then sends a string:
