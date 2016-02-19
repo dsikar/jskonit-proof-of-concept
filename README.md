@@ -6,7 +6,7 @@ This document describes how to run a Jsoknit proof of concept test.
 To copy the directory structure to your local machine, install git, open a terminal in Linux/OSX or a Git Shell in Windows and type:
 
 ``` 
-git clone TODO ADD URL
+git clone https://github.com/dsikar/jskonit-proof-of-concept.git
 ```
 
 Alternatively, download the zip file.
@@ -62,4 +62,4 @@ To test communication to and from the BT0417C you will need an Android app such 
 
 If your connection is successful, you will be able to get the interface definition, turn the led on and off, query the led state and vary the led brightness intensity.
 
-![Real wiring](images/real-wiring.png)
+![Real wiring](images/real-wiring.jpg)
