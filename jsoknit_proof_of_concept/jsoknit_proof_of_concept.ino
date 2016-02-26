@@ -27,14 +27,16 @@ int ledpin = 9;
 SoftwareSerial mySerial(RX, TX);
 
 // library definition
-String libdef = "void LedOn(); void LedOff(); boolean LedIsOn(); void PWMLed(int intensity);";
+String libdef = "void LedOn(); void LedOff(); boolean IsLedOn(); void PWMLed(int intensity);";
 
 void LedOn() {
   digitalWrite(ledpin, HIGH);
+  boolIsLedOn = true;
 }
 
 void LedOff() {
   digitalWrite(ledpin, LOW);
+  boolIsLedOn = false;
 }
 
 boolean IsLedOn() {
